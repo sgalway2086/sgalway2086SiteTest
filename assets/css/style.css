@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/*----------Universal---------*/
+
+*{
+    margin:0;
+    text-decoration: none;
+    color: #262626;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------Header---------*/
+
+header{
+    height: 60px;
+    background-color: rgb(12, 25, 22);
+}
+
+#header-title{
+    font-size: 48px;
+    margin: 0 0 0 10px;
+    color: #fafafa;
+}
+
+.nav-header{
+    height: 35px;
+    width: 420px;
+    float: right;
+    margin-top: 15px;
+}
+
+.header-a-box{
+    width: 78px;
+    height: 23px;
+    background-color:rgb(12, 25, 22);
+    color: #fafafa;
+    border-radius: 15px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.header-a-box{
+    color: #fafafa;
+}
+
+.header-a-box:hover{
+    color: #2abef4;
+    transition: .3s;
+}
+
+/*----------Drop Bar (deactivated)---------*/
+
+.drop-bar-button span{
+    display: none;
+}
+
+.drop-bar{
+    display: none;
+}
+
+.drop-bar-option{
+    display: none;
+}
+
+/*----------footer---------*/
+
+.nav-footer i{
+    font-size: 30px;
+    padding: 3px 4px 7px 6px;
+    float: left;
+    color: #fafafa;
+}
+
+.footer-a-box{
+    width: 38px;
+    height: 38px;
+    background-color: rgb(12, 25, 22);
+    border-radius: 50%;
+    float: right;
+    margin: 10px 15px;
+    color: #fafafa;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(12, 25, 22);
+}
+
+.footer-a-box:hover i{
+    color: #2abef4;
+    transition: 0.3s;
+}
+
+/*----------Index---------*/
+
+#heroimage{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    background-image: url("../images/heroimg.jpg");
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(12, 25, 22, .6);
+}
+
+#call-to-action{
+    color: #fafafa;
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 40vh;
+}
+
+#call-to-action h1, #call-to-action a{
+    color: #fafafa;
+}
+
+#call-to-action h1{
+    font-size: 300%;
+}
+
+#call-to-action a{
+    font-size: 80%;
+}
+
+#call-to-action a:hover{
+    text-decoration: underline;
+}
+
+/*----------Index Information---------*/
+
+#index-information{
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+#index-bio{
+    width: 63%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #e6e6e6;
+    float: right;
+    box-shadow: 1px 2px 2px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/*----------Index Video Content---------*/
+
+#index-video-content{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #e6e6e6;
+    float: left;
+    box-shadow: 1px 2px 2px;
+}
+
+iframe{
+    width: 90%;
+    height: 300px;
+    margin: 0% 5% 5% 5%;
+}
+
+/*----------Index music links---------*/
+
+#index-music-links{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background-color: #e6e6e6;
+    box-shadow: 1px 2px 2px;
+}
+
+#index-album-art{
+    width: 70%;
+    height: auto;
+    margin: 0% 15%;
+}
+
+#spotify-button i, #apple-music-button i{
+    color: #fafafa;
+}
+
+#spotify-button{
+    display: block;
+    font-size: 20px;
+    width: 35%;
+    height: 30px;
+    padding: 7px 0 3px 0;
+    background-color: #1DB954;
+    color: #fafafa;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+}
+
+#spotify-button:hover{
+    background-color: #189a46;
+}
+
+#apple-music-button{
+    display: block;
+    font-size: 20px;
+    width: 35%;
+    height: 30px;
+    padding: 7px 0 3px 0;
+    background-color: #fc3c44;
+    color: #fafafa;
+    text-align: center;
+    float: left;
+}
+
+#apple-music-button:hover{
+    background-color: #fc1d24;
+}
+
+/*----------Gallery---------*/
+
+.gallery-image{
+    width: 100%;
+}
+
+#gallery-column{
+    column-count: 4;
+    column-gap: 0px;
+    background-color: #fafafa;
+}
+
+#gallery-title{
+    padding-left: 10px;
+}
+
+/*----------Contact---------*/
+
+#contact{
+    max-width: 740px;
+    min-height: 518px;
+    margin-right: 10%;
+    float: right;
+    border: solid 1px;
+    padding: 30px;
+    background-color: #fafafa;
+    box-shadow: 2px 4px 5px;
+}
+
+#form-submit-button{
+    background-color: rgb(40, 143, 43);
+    border: none;
+    color: #fafafa;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#form-submit-button:hover{
+    background-color: rgb(27, 117, 30);
+}
+
+#contact-wrap{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
+    padding: 60px 0;
+}
+
+.text-area-small{
+    display: none;
+}
+
+#contact-title{
+    float: left;
+    text-align: center;
+    font-size: 500%;
+}
+
+#contact-title-wrap{
+    width: 500px;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    float: left;
+}
+
+/*----------Media Queries---------*/
+
+@media screen and (max-width: 1280px){
+    #index-bio{
+        width:96%;
+    }
+    #index-music-links{
+        width: 46%;
+        float: right;
+        margin-top: 0%;
+    }
+    #index-video-content{
+        width: 46%;
+        margin-top: 0%;
+    }
+}
+
+
+@media screen and (max-width: 1380px){
+    #contact-title-wrap{
+        width: 450px;
+    }
+
+    #contact-title{
+        font-size: 450%;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    #contact-title-wrap{
+        width: 400px;
+    }
+
+    #contact-title{
+        font-size: 400%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #gallery-column{
+        column-count: 3;
+    }
+
+    #contact{
+        margin-right: 5%;
+    }
+
+    #contact-title-wrap{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    #contact-title-wrap{
+        width: 350px;
+    }
+
+    #contact-title{
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #contact-title-wrap{
+        width: 100%;
+        margin: 0;
+    }
+
+    #contact-title{
+        text-align: center;
+        float: none;
+    }
+
+    #contact{
+        float: none;
+        margin: 0 auto;
+    }
+
+    form{
+        display: inline-block;
+        text-align: left;
+    }
+
+    #contact-wrap{
+        padding-top:0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-height: 867px){
+    #contact-wrap{
+        padding: 90px 0;
+    }
+}
+
+@media screen and (min-height: 927px){
+    #contact-wrap{
+        padding: 120px 0;
+    }
+}
+
+@media screen and (min-height: 987px){
+    #contact-wrap{
+        padding: 150px 0;
+    }
+}
+
+@media screen and (min-height: 1047px){
+    #contact-wrap{
+        padding: 180px 0;
+    }
+}
+
+@media screen and (min-height: 1087px){
+    #contact-wrap{
+        padding: 210px 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .contact-details-information{
+        display: block;
+    }
+
+    #contact{
+        border: none;
+    }
+
+    /*#contact-wrap{
+        padding: 30px 0;
+    }*/
+
+    #index-music-links{
+        width: 96%;
+    }
+
+    #index-video-content{
+        width: 96%;
+    }
+
+    #index-bio, #index-video-content, #index-music-links{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    #gallery-column{
+        column-count: 2;
+    }
+
+    .large-resolution-header{
+        display: none;
+    }
+
+    .nav-header{
+        height: 0px;
+        width: 0px;
+    }
+
+    .drop-bar-button span{
+        display: block;
+    }
+
+    /*----------Drop Bar---------*/
+
+    .drop-bar-option{
+        font-size: 24px;
+        padding: 10px 5px 0px 5px;
+        background-color: #f2f2f2;
+    }
+
+    .drop-bar-button{
+        width: 50px;
+        font-size: 30px;
+        padding-left: 10px;
+        position: absolute;
+        top: 9px;
+        right: 5px;
+        float: left;
+    }
+
+    .drop-bar-button i{
+        color: #fafafa;
+        margin-top: 5px;
+    }
+
+    span:hover .header-fa{
+        background-color: #ff1a1a;
+    }
+
+    .drop-bar-button:hover .drop-bar{
+        width: 150px;
+        height: 160px;
+        display: inline-block;
+    }
+
+    .drop-bar-button:hover .drop-bar-option{
+        width: 150px;
+        height: 40px;
+        display: block;
+        position: relative;
+        top: 12px;
+        right: 105px;
+        float: left;
+    }
+
+    .drop-bar-option:hover{
+        background-color: #cccccc;
+    }
+}
+
+@media screen and (max-width: 550px){
+    iframe{
+        height: 300px;
+    }
+    #call-to-action h1{
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 490px){
+    #gallery-column{
+        column-count: 1;
+    }
+
+    .text-area-small{
+        display: block;
+    }
+
+    .text-area-medium{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 410px){
+    #index-album-art{
+        width: 90%;
+        height: auto;
+        margin: 0% 5%;
+    }
+
+    #spotify-button{
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    #apple-music-button{
+        width: 45%;
+    }
+    
+    iframe{
+        height: 200px;
+    }
+
+    #call-to-action h1{
+        font-size: 200%;
+    }
+
+    #contact-title{
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    #contact{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #header-title{
+        font-size: 40px;
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #spotify-button{
+        font-size: 16px;
+        height: 26px;
+    }
+
+    #apple-music-button{
+        font-size: 16px;
+        height: 26px;
+    }
+}
